@@ -16,3 +16,11 @@ List<String> m= new List<String>{'red','blue'};
     for(string t:words){
         system.debug(t.capitalize());
     }
+
+
+    Date d = Date.today();
+    system.debug(d);
+    Date f = Date.newInstance(2022, 12, 21);
+    system.debug(d.daysBetween(f));
+    Integer g= d.daysBetween(f);
+    system.debug(g);
