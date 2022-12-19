@@ -12,3 +12,7 @@ List<String> m= new List<String>{'red','blue'};
  for(String g : e){f.add(g.toUpperCase());}
  system.debug(f);
  
+ List<String> words = new List<String>{'sunday','monday','tuesday','wednesday','thursday','friday','saturday'};
+    for(string t:words){
+        system.debug(t.capitalize());
+    }
